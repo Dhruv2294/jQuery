@@ -1,0 +1,33 @@
+.main{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(255, 76, 106);
+    border: 2.5px ridge black;
+    cursor: pointer;
+}
+.bgViolet{
+    background-color: violet;
+}
+.bgIndigo{
+    background-color: indigo;
+}
+.bgBlue{
+    background-color: blue;
+}
+.bgGreen{
+    background-color: green;
+}
+.bgYellow{
+    background-color: yellow;
+}
+.bgOrange{
+    background-color: orange;
+}
+.bgRed{
+    background-color: red;
+}

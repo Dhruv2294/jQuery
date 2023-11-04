@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme Color Event</title>
+    <link rel="stylesheet" href="Theme Color.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+</head>
+<body bgcolor="skyblue">
+    <div class="main">
+        <div class="box bgViolet" onclick="changeBg('bgViolet')"></div>
+        <div class="box bgIndigo" onclick="changeBg('bgIndigo')"></div>
+        <div class="box bgBlue" onclick="changeBg('bgBlue')"></div>
+        <div class="box bgGreen" onclick="changeBg('bgGreen')"></div>
+        <div class="box bgYellow" onclick="changeBg('bgYellow')"></div>
+        <div class="box bgOrange" onclick="changeBg('bgOrange')"></div>
+        <div class="box bgRed" onclick="changeBg('bgRed')"></div>
+    </div>
+    <script>
+        function changeBg(color){
+            $("body").addClass(color);
+        }
+    </script>
+</body>
+</html>
